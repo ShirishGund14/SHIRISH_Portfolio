@@ -6,6 +6,10 @@ import img1 from '../img/photos/img1.jpeg';
 import img2 from '../img/photos/img2.jpeg';
 import img3 from '../img/photos/img3.jpeg';
 import img4 from '../img/photos/img4.jpeg';
+import img5 from '../img/photos/img5.jpeg';
+import img6 from '../img/photos/img6.jpeg';
+import img7 from '../img/photos/img7.jpeg';
+import img8 from '../img/photos/img8.jpeg';
 
 const Photography = () => {
   const slides = [{
@@ -17,13 +21,33 @@ const Photography = () => {
     caption:' Where Petals meet Wings'
   },
   {
+    url:img3,
+    caption:'Dewdrop Jewles'
+  },
+  {
     url:img4,
     caption:'Cat Candid'
   },
   {
-    url:img3,
-    caption:'Dewdrop Jewles'
-  }];
+    url:img5,
+    caption:'Endless Naps'
+  },
+  {
+    url:img6,
+    caption:'Golden Hour'
+  }, {
+    url:img7,
+    caption:'Clouds'
+  }, {
+    url:img8,
+    caption:'Spider'
+  }
+
+
+
+
+
+];
 
   const settings = {
     dots: true,
@@ -43,7 +67,7 @@ const Photography = () => {
   };
 
   return (
-    <div className="w-full">
+    <div className="w-full scroll-smooth">
       <Slider {...settings}>
         {slides.map((img, index) => (
           <div key={index} className="h-full relative">

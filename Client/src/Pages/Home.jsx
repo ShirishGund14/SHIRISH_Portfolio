@@ -45,18 +45,18 @@ const Home = () => {
   };
 
   return (
-    <div className='bg-[#040404] text-zinc-500 w-full h-screen p-10 relative overflow-hidden'>
-      <div className='text-7xl md:text-9xl uppercase font-semibold'>Shirish</div>
-      <div className='text-7xl md:text-9xl uppercase font-semibold'>Gund</div>
-      <img src={MyImg} className='w-full h-screen object-contain absolute -top-[0.5rem] md:-top-[5rem] sm:-left-5' alt="Shirish Gund" />
+    <div className='bg-[#040404] text-zinc-500 w-full h-screen p-10 relative overflow-hidden scroll-smooth'>
+      <div className='text-7xl md:text-9xl uppercase font-semibold animate-slideIn animate-pulse '>Shirish</div>
+      <div className='text-7xl md:text-9xl uppercase font-semibold animate-slideIn animate-pulse'>Gund</div>
+      <img src={MyImg} className='w-full h-screen object-contain absolute -top-[0.5rem] md:-top-[5rem] sm:-left-5 animate-slideIn' alt="Shirish Gund" />
 
       <div className="fixed top-[12rem] md:top-8 md:right-8 z-[1000000] flex flex-col items-center gap-2">
         <div>
-          <button className='bg-p p-4 text-black' onClick={handleKeyVolume}>
+          <button className='bg-p p-4 text-black ' onClick={handleKeyVolume}>
             <GiHamburgerMenu />
           </button>
           <button onClick={handlePlayMusic} className='bg-p p-4 text-black'>
-            {musicon ? <PiMusicNoteSimpleFill /> : <PiMusicNoteSimpleLight />}
+            {musicon ? <PiMusicNoteSimpleFill className='animate-bounce' /> : <PiMusicNoteSimpleLight />}
           </button>
         </div>
         <input
