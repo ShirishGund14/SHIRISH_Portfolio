@@ -8,7 +8,7 @@ import { RiCodeSSlashFill } from "react-icons/ri";
 
 const Skills = () => {
   return (
-    <div className='w-full h-auto flex flex-col md:flex-row bg-bgBlack text-gray-500 p-4 scroll-smooth'>
+    <div className='w-full h-auto flex flex-col md:flex-row bg-bgBlack text-gray-500 p-4 scroll-smooth '  id='skills' >
       {/* left section */}
       <div className=' w-full h-[50%]  md:w-[70%] md:mr-3   md:border-r md: border-r-lines'>
         <p className='text-[2.3rem] md:text-9xl   uppercase py-6'>

@@ -45,8 +45,10 @@ const Home = () => {
   };
 
   return (
-    <div className='bg-[#040404] text-zinc-500 w-full h-screen p-10 relative overflow-hidden scroll-smooth'>
-      <div className='text-7xl md:text-9xl uppercase font-semibold animate-slideIn animate-pulse '>Shirish</div>
+    <div className='bg-[#040404] text-zinc-500 w-full h-screen p-10 md:p-16 relative overflow-hidden scroll-smooth  border-r border-r-p' id="home">
+
+      {/* DARK MODE HOME PAGE */}
+      <div className='text-7xl md:text-9xl uppercase font-semibold animate-slideIn animate-pulse inline text-p outline-2 outline-p hover:cursor-pointer'>Shirish</div>
       <div className='text-7xl md:text-9xl uppercase font-semibold animate-slideIn animate-pulse'>Gund</div>
       <img src={MyImg} className='w-full h-screen object-contain absolute -top-[0.5rem] md:-top-[5rem] sm:-left-5 animate-slideIn' alt="Shirish Gund" />
 

@@ -67,7 +67,7 @@ const Photography = () => {
   };
 
   return (
-    <div className="w-full scroll-smooth">
+    <div className="w-full scroll-smooth"  id='photography'  >
       <Slider {...settings}>
         {slides.map((img, index) => (
           <div key={index} className="h-full relative">

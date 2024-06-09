@@ -9,7 +9,7 @@ const About = () => {
 
     
     return (
-        <div className='w-full  bg-[#191b1c] text-gray-500  p-4 md:p-8 scroll-smooth'>
+        <div className='w-full  bg-[#191b1c] text-gray-500  p-4 md:p-8 scroll-smooth'   id='about'>
             <div className='uppercase text-3xl md:text-6xl tracking-wide mb-5 p-4  border-b border-b-[lines]'>About me</div>
            
             <div className='flex justify-between md:flex-row'>
