@@ -17,7 +17,7 @@ const About = () => {
             <div className='uppercase text-3xl md:text-6xl tracking-wide mb-5 p-4  border-b border-b-[lines]'>About me</div>
 
             <div className='flex justify-between md:flex-row'>
-                <div className=' w-[80%]   text-xl md:text-5xl md:leading-relaxed border-r border-r-[lines] p-3 md:p-6 font-bold tracking-wide font-cursive'>
+                <div className=' w-[80%]   text-[1.5rem]   md:text-5xl md:leading-relaxed border-r border-r-[lines] p-3 md:p-6 md:font-bold font-extrabold tracking-wide font-cursive'>
                     A <span className='text-p animate-pulse'>code-blooded photographer </span>continuing journey of <span className='text-p animate-pulse'>photography</span> and <span className='text-p animate-pulse'>coding </span>,
                     which started with capturing memories through each <span className='text-p animate-pulse'>single click</span> and the writing of the first <span className='text-p animate-pulse'>Hello World program.</span>
                 </div>
