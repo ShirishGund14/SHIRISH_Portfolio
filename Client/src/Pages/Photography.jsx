@@ -52,9 +52,10 @@ const Photography = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed:3000,
     slidesToShow: 4,
     slidesToScroll: 1,
+    autoplay: true,
     responsive: [
       {
         breakpoint: 768, // For mobile devices
@@ -67,10 +68,10 @@ const Photography = () => {
   };
 
   return (
-    <div className="w-full scroll-smooth"  id='photography'  >
-      <Slider {...settings}>
+    <div className="w-full scroll-smooth  "  id='photography'  >
+      <Slider {...settings}  >
         {slides.map((img, index) => (
-          <div key={index} className="h-full relative">
+          <div key={index} className="h-full relative " >
             <img
               src={img.url}
               alt={`Slide ${index + 1}`}

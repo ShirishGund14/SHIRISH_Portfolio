@@ -17,6 +17,7 @@ export default {
       },
       fontFamily: {
         sans: ["Fugaz One", "sans-serif"],
+        cursive:["Caveat"],
     },
     },
   },

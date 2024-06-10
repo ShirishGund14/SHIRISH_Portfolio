@@ -9,11 +9,11 @@ const Projects = () => {
         <div className='w-full   bg-[#111111]  scroll-smooth ' id="projects">
             <div className='uppercase text-lg tracking-wide text-gray-500   py-5 px-5 '>Recent Projects</div>
 
-            <div className='flex flex-col md:flex-row '>
+            <div className='flex flex-col md:flex-row  '>
 
                 {/* project1 */}
 
-                <div className=' md:w-1/2 bg-zinc-500 h-auto flex flex-col md:flex-row p-6 gap-5 items-center justify-between  group hover:bg-transparent hover:text-gray-500 hover:border-t-2 hover:border-t-p'>
+                <div className=' md:w-1/2 bg-zinc-500 h-auto flex flex-col md:flex-row p-6 gap-5 items-center justify-between  group hover:bg-transparent hover:text-gray-500 hover:border-t-2 hover:border-t-p   '>
                    
                     <div className='flex   md:flex-col gap-5  items-center  group-hover:text-p'>
                         <div className='hidden md:block md:-rotate-90  text-2xl md:text-lg tracking-widest font-bold uppercase'>CPYLER</div>
