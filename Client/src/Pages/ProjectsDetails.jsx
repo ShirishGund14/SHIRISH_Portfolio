@@ -107,7 +107,7 @@ const ProjectsDetails = () => {
       {
         data.map((project, ind) => (
           <div className={`card w-[80%] md:w-[50%] h-[50%] md:h-[70%] p-5 ${currentIndex % 2 === 0 ? 'bg-gray-950 rotate-6' : 'bg-gray-800'} 
-          hover:cursor-pointer flex flex-col gap-3 absolute`}
+          hover:cursor-pointer flex flex-col gap-3 absolute `}
             ref={cardref}
             key={ind}
           >
@@ -124,13 +124,13 @@ const ProjectsDetails = () => {
               <div className='text-lines text-sm overflow-y-auto h-[40%] '>{data[currentIndex].description} </div>
             </div>
 
-             <Link className='text-3xl text-lines bg-transparent rounded-full absolute bottom-3 right-3' to={data[currentIndex].url} target='_blank'><IoArrowRedo/></Link>
+             <Link className='text-3xl text-lines bg-transparent rounded-full absolute bottom-3 right-3 flex items-center gap-2 hover:text-p' to={data[currentIndex].url} target='_blank'><span className='text-sm'>Visit site</span><IoArrowRedo className='animate-bounce'/></Link>
 
           </div>
         ))
       }
-      <button className='bg-p p-3 text-bgBlack  md:text-4xl rounded-full border-2 border-bgBlack absolute   left-2 md:left-28 ' onClick={handlePrev}>  <TbArrowBadgeLeftFilled /> </button>
-      <button className='bg-p p-3 text-bgBlack  md:text-4xl absolute rounded-full border-2   border-bgBlack right-2 md:right-28 ' onClick={handleNext}><TbArrowBadgeRightFilled /> </button>
+      <button className='bg-p p-3 text-bgBlack  md:text-4xl rounded-full border-2 border-bgBlack absolute   left-2 md:left-28  shadow-black shadow-lg group' onClick={handlePrev}>  <TbArrowBadgeLeftFilled className='group-hover:animate-ping'/> </button>
+      <button className='bg-p p-3 text-bgBlack  md:text-4xl absolute rounded-full border-2   border-bgBlack right-2 md:right-28 shadow-black shadow-lg group' onClick={handleNext}><TbArrowBadgeRightFilled className='group-hover:animate-ping'/> </button>
 
     </div>
   )
