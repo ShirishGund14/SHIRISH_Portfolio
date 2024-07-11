@@ -5,6 +5,7 @@ import { FaCode, FaCodeFork } from "react-icons/fa6";
 import { CiCircleList } from "react-icons/ci";
 import { FaCodepen } from "react-icons/fa";
 import { RiCodeSSlashFill } from "react-icons/ri";
+import { TbArrowBadgeRightFilled } from "react-icons/tb";
 
 const Skills = () => {
   return (
@@ -38,7 +39,7 @@ const Skills = () => {
             <FaCodeFork className=' text-p text-[2.5rem] mt-4 animate-bounce' />
           </div>
           <div className='flex flex-col gap-3  text-lines  '>
-            <div className=''>Node.js</div>
+            <div className=''>  Node.js</div>
             <div className=''>React.js</div>
             <div className=''>Express.js</div>
             <div className=''>MongoDb</div>
